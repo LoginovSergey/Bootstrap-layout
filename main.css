@@ -1,0 +1,362 @@
+/*--------start first and second menu-----*/
+.bg-grey{
+	background-color: #d7d7d7;
+}
+.bg-mountain {
+	background-image: url(../img/mountain.png);
+	background-size: cover;
+	height: 900px;
+	margin-bottom: 20px;
+}
+.first-menu {
+	padding-top: 250px;
+	color: #ffffff;
+}
+.first-menu h1 {
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+}
+.first-menu p {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 80px;
+}
+.first-menu input{
+	height: 50px;
+	border-radius: 4px;
+	border: 2px solid #f5f5f5;
+	padding: 5px 10px;
+}
+.first-menu select {
+	height: 50px;
+}
+.first-menu button{
+	border-radius: 6px;
+	background-color: #3ec6ff;
+	padding: 10px;
+	height: 50px;
+	border: 0;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+}
+.bg-maldives{
+	background-image: url(../img/maldives.png);
+	height: 700px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+.bg-third-menu{
+	background-color: #f6f6f6;
+	background-size: cover;
+	height: 600px;
+}
+/*--------end first and second menu-----*/
+/*---------------start third menu---------*/
+.third-menu h1{
+	color: #868686;
+	font-family: 'Roboto', sans-serif;
+	font-size: 45px;
+	margin-top: 150px;
+}
+.third-menu p{
+	color: #868686;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 50px;
+}
+.third-menu button{
+	color: #ffffff;
+	background-color: #3ec6ff;
+	border: 0;
+	height: 50px;
+	border-radius: 6px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 70px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.third-menu img{
+	margin-top: 70px;
+}
+/*---------------end third menu---------*/
+/*---------------start card menu---------*/
+.bg-card-menu{
+	background-color: #f6f6f6;
+	background-size: cover;
+	height: 650px;
+	margin-top: 20px;
+}
+.rating1 {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  color: #fa9d4c;
+  font-size: 30px;
+  display: inline-block;
+}
+.rating1 > span {
+  display: inline-block;
+  position: relative;
+}
+.rating1 > span:hover:before,
+.rating1 > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   color: #fa9d4c;
+}
+.card-menu-pt {
+	padding-top: 90px;
+}
+.rating1 p{
+	display: inline-block;
+	color: #868686;
+	font-size: 16px;
+	margin: 0;
+	margin-left: 70px;
+	font-family: 'Roboto', sans-serif;
+}
+/*---------------end card menu-------------*/
+/*---------start second card menu---------*/
+.bg-for-second-card-menu {
+	background-color: #f6f6f6;
+	background-size: cover;
+	height: 420px;
+	margin-top: 20px;
+	padding-top: 80px;
+	margin-bottom: 20px;
+}
+.universal-tag-h{
+	color: #ffffff;
+	font-size: 14px;
+	margin-top: 140px;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+}
+.universal-tag-p {
+	color: #ffffff;
+	font-size: 36px;
+	font-family: 'Roboto', sans-serif;
+}
+.rating2 {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  color: #fa9d4c;
+  float: right;
+  font-size: 20px;
+  display: inline-block;
+}
+.rating2 > span {
+  display: inline-block;
+  position: relative;
+}
+.rating2 > span:hover:before,
+.rating2 > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   color: #fa9d4c;
+}
+.rating2 p{
+	color: #ffffff;
+	font-size: 14px;
+	margin: 0;
+	margin-left: 17px;
+	font-family: 'Roboto', sans-serif;
+}
+/*-----------end second card menu---------*/
+/*-----------start newsletter menu---------*/
+.bg-for-newsletter{
+	background-color: #f6f6f6;
+	background-size: cover;
+	height: 280px;
+	margin-bottom: 20px;
+}
+.newsletter-h h3{
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+	color: #868686;
+	margin-top: 90px;
+}
+.newsletter-h p{
+	font-family: 'Roboto', sans-serif;
+	color: #868686;
+}
+.button-newsletter button{
+	background-color: #3ec6ff;
+	border: 0;
+	border-radius: 6px;
+	width: 270px;
+	height: 50px;
+	margin-top: 115px;
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+/*------------end newsletter menu-----------*/
+/*------------start contact us menu-----------*/
+.bg-contact-us{
+	background-color: #f6f6f6;
+	background-size: cover;
+	height: 670px;
+	margin-bottom: 20px;
+}
+.bg-contact-us input {
+	width: 270px;
+	height: 50px;
+	border: 1px solid #ffffff;
+	border-radius: 4px;
+}
+.bg-contact-us h1{
+	color: #868686;
+	font-family: 'Roboto', sans-serif;
+	font-size: 48px;
+	font-weight: 700;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+.bg-contact-us label{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #868686;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+.text-area-contactus {
+	height: 130px;
+	resize: none;
+}
+/*------------end contact us menu-----------*/
+/*------------start comment menu-----------*/
+.bg-comment-menu {
+	background-color: #f6f6f6;
+	height: 860px;
+	padding-top: 40px; 
+	margin-bottom: 20px;
+}
+.bg-comment-menu select {
+	width: 130px;
+	height: 40px;
+	border-radius: 6px;
+	float: right;
+	display: inline-block;
+	border: 0;
+	cursor: pointer;
+	padding-left: 20px;
+}
+.bg-comment-menu button{
+	width: 172px;
+	height: 40px;
+	border-radius: 6px;
+	float: right;
+	background-color: #ffffff;
+	border: 0;
+	margin-right: 20px;
+}
+.bg-comment-menu p{
+	display: inline-block;
+}
+.rating3 {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  color: #fa9d4c;
+  font-size: 20px;
+  display: inline-block;
+}
+.rating3 > span {
+  display: inline-block;
+  position: relative;
+}
+.rating3 > span:hover:before,
+.rating3 > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   color: #fa9d4c;
+}
+.comment-menu-h-p h5 {
+	color: #343434;
+	font-family: 'Roboto', sans-serif;
+}
+.comment-menu-h-p p {
+	color: #868686;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 0;
+}
+button.button-bottom {
+float: left;
+background-color: #3ec6ff;
+border-radius: 6px;
+color: #ffffff;
+width: 175px;
+height: 50px;
+font-size: 16px;
+cursor: pointer;
+}
+.comment-menu-h-p img{
+	float: left;
+	margin-right: 20px;
+}
+/*------------end comment menu-----------*/
+/*------------end comment menu-----------*/
+.rating4 {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  color: #fa9d4c;
+  font-size: 20px;
+  display: inline-block;
+}
+.rating4 > span {
+  display: inline-block;
+  position: relative;
+  float: right;
+  display: inline-block;
+}
+.rating4 > span:hover:before,
+.rating4 > span:hover ~ span:before {
+content: "\2605";
+position: absolute;
+color: #fa9d4c;
+}
+.card-menu-middle button{
+width: 172px;
+height: 45px;
+border-radius: 6px;
+background-color: #3ec6ff;
+float: right;
+border: 0;
+color: #ffffff;
+font-family: 'Roboto', sans-serif;
+}
+
+.text-in-card {
+padding-top: 20px;
+padding-left: 20px;
+color: #868686;
+font-family: 'Roboto', sans-serif;
+margin-right: 27px;
+}
+.card-text-footer{
+color: #868686;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-weight: 400;
+padding-left: 13px;
+}
+.header-text-card {
+	color: #343434;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+.fas.fa-user {
+	margin-left: 50px;
+	font-size: 25px;
+	color: #868686;
+}
+div.card-footer {
+	background-color: #ffffff;
+}
+.card-tag-for-menu {
+	padding-top: 30px;
+}
+.card-menu-middle {
+	margin-bottom: 20px;
+}
+/*------------end comment menu-----------*/
